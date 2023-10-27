@@ -15,13 +15,17 @@
 4. Сделать первоначальную настройку.
 ![jenkins menu](https://github.com/ALEMOLOKOV/Jenkins/assets/109212419/c28833a4-e260-46cf-9575-0685c94ce190)
 
-![STATUS](https://github.com/ALEMOLOKOV/Jenkins/assets/109212419/fa21c8d8-adbc-43e1-b13d-d894584c59ad)
+![STATUS](https://github.com/ALEMOLOKOV/Jenkins/assets/109212419/2356623f-d673-4ae9-b074-e12f22ee7bd6)
+
 
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью
 
 #### Я правильно понимаю, что в этом задании нужно сделать скрип, который скачат репозиторий с ролью и запустит команду molecule test  в диреткории с ролью? 
+
+![1 task](https://github.com/ALEMOLOKOV/Jenkins/assets/109212419/c66cab33-08f4-4a14-b63d-edffe9e9cef8)
+
   
 2. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
 3. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
